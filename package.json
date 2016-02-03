@@ -1,0 +1,13 @@
+{
+  "name": "gm_root_api",
+  "version": "0.0.1",
+  "author": "",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "mysql": "2.0.x"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.8.x"
+  }
+}
