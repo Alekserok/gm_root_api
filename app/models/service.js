@@ -42,4 +42,3 @@ Service.someStaticProperty = 'YYZ';
 */
 
 Service = geddy.model.register('Service', Service);
-

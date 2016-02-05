@@ -39,11 +39,10 @@ var config = {
   }
     , db: {
         mysql: {
-            host: 'localhost',
-            port: 3333,
-            user: 'gm',
+            host: '91.196.196.24',
+            user: 'root',
             database: 'gm',
-            password: 123
+            password: '123'
         }
     }
 , sessions: {

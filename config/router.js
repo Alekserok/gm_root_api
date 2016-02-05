@@ -39,7 +39,6 @@ router.get('/').to('Main.index');
 //   this.get('/print(.:format)').to('Hemispheres.print');
 // });
 
-//router.resource('services');
-router.get('/services').to('services.index');
+router.resource('services');
 router.resource('to_dos');
 exports.router = router;

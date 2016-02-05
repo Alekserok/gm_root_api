@@ -1,0 +1,18 @@
+<div class="hero-unit">
+  <h2 class="name"><%= service.name %></h2>
+  <%- linkTo('Edit this service', editServicePath(params.id), {class: 'btn pull-right'}); %>
+  <%- linkTo('Back to list', servicePath(''), {class: 'btn pull-right'}); %>
+</div>
+
+<h2>Service Properties</h2>
+<% for(var i in service) { -%>
+<% if(i !== 'saved') { -%>
+<div class="row list-item">
+  <div class="span4">
+    <h3><%= i %></h3>
+  </div>
+  <div class="span8">
+    <h3><i class="icon-list-alt"></i><span class="<%= i %>"><%= service[i] %></span></h3>
+  </div>
+</div>
+<% } -%><% } -%>
